@@ -38,7 +38,10 @@
    box-shadow: 2px 1px 30px 5px rgba(188, 198, 186, 0.879);
    z-index: 0;
  }
-
+.logo{
+   width: 100px;
+   height: 100px;
+}
  /* nut */
  .button-shows{
    width: 240px;
