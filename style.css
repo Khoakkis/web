@@ -1,1 +1,157 @@
 
+*{
+   padding: 0px;
+   margin: 0px;
+}
+.bg{
+   background: url("nen.png") no-repeat 100% 100%;
+   width: 100%;
+   height: 900px;
+   z-index: -10;
+   right: 30;
+}
+.contains{
+   width: 880px;
+   margin: 0px auto;
+} 
+/* menu */
+   .navbar-expand-lg{
+      top: 0px;
+      position: fixed;
+      width: 100%;
+      z-index: 1;
+   }
+/* banner */
+.carousel{
+   margin-top: 60px;
+}
+.carousel-inner{
+   z-index: -1;
+}
+.carousel-indicators{
+   bottom: 3px;
+}
+.w-100 {
+   max-width: 100%;
+   height: 340px;
+   padding: 4px 8px;
+   border-radius: 20px;
+   box-shadow: 2px 1px 30px 5px rgba(188, 198, 186, 0.879);
+   z-index: 0;
+ }
+
+ /* nut */
+ .button-shows{
+   width: 240px;
+   height: 50px;
+   background: rgba(48, 46, 46);
+   margin: -20px auto;
+   z-index: 2;
+   border-radius: 20px;
+   border: 4px solid white;
+ }
+ .button-shows h3{
+   line-height: 42px;
+   text-align: center;
+   color: white;
+ }
+
+ /* card */
+.card-name{
+   margin: 38px 0px;
+}
+.card-name .name{
+   text-align: center;
+}
+.card-name .name h2{
+   font-size: 27px;
+   font-weight: 800;
+}
+.card-name .name h5{
+   font-size: 17px;
+   font-weight: 500;
+   letter-spacing: 3px;
+}
+.card-name .avatar{
+   width: 25%;
+   z-index: 1;
+}
+.card-name .avatar img{
+   width: 200px;
+   height: 200px;
+   border-radius: 90px 0px 90px 90px;
+}
+.introduce{
+   width: 75%;    
+   padding-left: 120px;
+   padding-top: 6px;
+   margin-left: -90px;
+   background: rgba(211, 211, 211, 0.482);
+   z-index: 0;   
+   border-radius: 0px 90px 0px 0px;      
+}
+/* dinh dang */
+.info{
+   padding: 0px 10px;
+   width: 90%;
+   margin: 20px auto;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+}
+
+ /* dienthoai */
+@media only screen and (max-width: 800px) {
+   .w-100 {  
+    height: 80%;
+   }
+   .contains{
+      width: 100%;
+      margin: 0px auto;
+   }
+   .contains{
+      margin: 0px auto;
+   }
+
+   .button-shows{
+   width: 150px;
+   height: 45px;
+   background: rgba(48, 46, 46);
+   margin: -20px auto;
+   z-index: 2;
+   border-radius: 20px;
+   border: 4px solid white;
+ }
+ .button-shows h3{
+   line-height: 37px;
+   text-align: center;
+   color: white;
+ }
+ .card-name .avatar img{
+   width: 170px;
+   height: 170px;
+   border-radius: 60px 0px 60px 60px;
+   margin-left: 19px;
+}
+.card-name{
+   padding: 0px 15px;
+}
+.card-name .avatar{
+   width: 30%;
+}
+.introduce{
+   font-size: 12px;
+   width: 70%;
+   padding-left: 60px;
+   padding-top: 6px;
+   margin-left: -80px;
+   background: rgba(211, 211, 211, 0.482);
+   z-index: 0;   
+   border-radius: 0px 60px 0px 0px;          
+}
+ /* dinh dang */
+.info{
+   width: 100%;
+   justify-content: space-around;
+}
+ }
